@@ -1,0 +1,130 @@
+
+#forminput
+{
+  max-height: wrap;max-width: 30vw;background-color: white ;margin-left:35%;padding-top: 3vh;padding-bottom: 0;
+}
+
+#inclu
+{
+  max-height: wrap;
+}
+
+#Alogo{
+	margin-top: 30px;margin-bottom: 15px;margin-left: 45vw; height: 7vw;width: 8vw;
+}
+
+.fixbutton{
+	position: fixed;
+	bottom: 0px;
+	align-self: center;
+	position: fixed;
+	height: 55px;
+	width: 80%;
+	left: 10%;
+	border: none;
+	background-color: black;
+	color: white;
+}
+
+.headings
+{
+	font-size:30px; 
+}
+
+ #Services
+  {
+  	margin-left: 40%;
+  }
+  #inclusion
+  {
+    margin-left: 45%;
+  }
+ #benefits  
+  {
+    margin-left: 42%;
+    margin-top: 60px;
+  }
+
+  #i1,#i2,#i3,#i4,#i5{
+  	max-width: 180px
+  }
+  
+   #iup{
+  	
+  	margin-top: 50px;
+  
+  }
+  #idown{
+  margin-top: 50px;
+  }
+
+  @media screen and (max-width: 800px)
+{
+  #forminput
+  {
+    max-width: 80vw;
+    margin-left: 10vw;
+  }
+
+  #Alogo
+  {
+	margin-top: 30px;margin-bottom: 15px;margin-left: 45vw; height: 15vw;width: 15vw;
+  } 
+
+  .headings
+  {
+  	font-size: 20px;
+  }
+  #Services
+  {
+  	margin-left: 25%;
+  }
+  #inclusion
+  {
+    margin-left: 35%;
+  }
+  #inclu
+  {
+  	max-height: wrap;
+  }
+  #benefits  
+  {
+    margin-left: 30%;
+  }
+    #i1,#i2,#i3,#i4,#i5{
+  	max-width: 120px
+  }
+  #i5{
+  	margin-bottom: 30px;
+  }
+  #iup{
+  	max-width: 30vw;
+  	float: left;
+  	margin-top: 0;
+  	margin-left: 10px;
+    margin-bottom: 
+  }
+  #idown{
+  	max-width: 30vw;
+  	float: right;
+  	margin-top: 0;
+  	margin-right: 0;
+  	margin-left:10px;
+  }
+  .bimg{
+  	max-width: 120px;
+  }
+
+  .fixbutton{
+	position: fixed;
+	bottom: 0px;
+	position: fixed;
+	height: 55px;
+	width: 100%;
+	left: 0px;
+	border: none;
+	background-color: black;
+	color: white;
+}
+
+}
